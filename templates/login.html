@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>GIT REPOS</title>
+    </head>
+    <body bgcolor="olive">
+
+              <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4><font color="purple">Login with your Github account</font>&nbsp;&nbsp;&nbsp;<img src="/static/images.jpeg" width=80 height=60></h4>
+
+        <form action="." method="POST">
+            
+            {% csrf_token %}
+             <BR><BR>
+             
+           <font color="purple"> Username :</font> <input type="text" name="username"/><br /><br>
+            <font color="purple">Password :</font> &nbsp;<input type="password" name="password"/><br /><br />
+            
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="submit" value="Sign in"/>
+           
+        </form>
+    </body>
+
+</html>
